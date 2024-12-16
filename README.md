@@ -1,0 +1,1 @@
+# binary-image-floor-map-to-coordinates
