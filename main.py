@@ -44,7 +44,7 @@ for y in range(height):
 
             # ファイルに保存
             batch_count += 1
-            file_name = f"6-insert_coordinates_batch_{batch_count}.sql"
+            file_name = f"7-insert_coordinates_batch_{batch_count}.sql"
             try:
                 with open(file_name, "w") as f:
                     f.write(sql)
@@ -63,7 +63,7 @@ if values:
         ",\n".join(values) +
         ";"
     )
-    file_name = f"6-insert_coordinates_batch_{batch_count}.sql"
+    file_name = f"7-insert_coordinates_batch_{batch_count}.sql"
     try:
         with open(file_name, "w") as f:
             f.write(sql)
